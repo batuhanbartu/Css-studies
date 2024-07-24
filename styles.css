@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header{
+    background-color: rgba(0, 72, 72, 0.063);
+    font-style: none;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    font-size: 40px; 
+    font-weight: bold;
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    transition: 0.2s;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.background-foto{
+    background-image: url(image/indir.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+    width: 80%;
+    height: 80%;
+}
+
+.model{
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-size: 1.5em;
+    transition: transform 0.3s;
+}
+.model h1{
+    text-align: center;
+}
+.model:hover {
+    transform: scale(1.05); /* Model üzerine gelindiğinde 1.05 kat büyütme efekti uygulanacak */
+}
+
+.kartlar{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+.name-container {
+    font-size: 3rem;
+    display: flex;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.letter {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: red;
+}
